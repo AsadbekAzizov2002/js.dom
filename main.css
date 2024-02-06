@@ -1,25 +1,19 @@
-.boddy{
-    background-image: url(./bookmark/img/book.jpg);
-    width: 100vh;
-    
-}
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.a {
-    text-decoration: none;
-    display: inline-block;
-    color: unset;
+.boddy{
+    background-image: url('./bookmark/img/book.jpg');
+    background-color: antiquewhite;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
 }
 
-
-.ul,
-ol {
-    list-style: none;
-}
 
 .btn{
     border: solid 1px black;
@@ -29,68 +23,57 @@ button {
     border: none;
     background-color: transparent;
 }
-.container {
-    max-width: 1010px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+
 .header_container{
     
-    max-width: 300px;
-    padding: 490px 490px;
-    height: 292px;
-    display: contents;
+    max-width: 100%;
+    
+    height: 100vh;
+    display: flex;
     justify-content: center;
-    margin-left: 490px;
-    margin-right: 490px;
+    align-items: center;
+    
 }
-.img{
+/* .img{
     margin-right: 490px;
     margin-left: 290px;
     margin-top: 198px; 
     margin-bottom: 51px ;
-}
+} */
 .delete{
     padding: 5px 5px 5px 5px;
     background-color: #ff1b13;
 }
+
 .opn{
     padding: 5px 5px 5px 5px;
     background-color: #1378FF;
 }
 #use{
-    width: 500px;
+    width: 300px;
     padding: 13px 165px 12px 51px;
     border: solid #fff;
     color: #fff;
     background-color: transparent;
     border-radius: 5px;
     margin-bottom:  20px;
-    margin-right: 490px;
-    margin-left: 290px; 
 }
 #pas{
-    width: 500px;
+    width: 300px;
     padding: 13px 165px 12px 51px;
     border: solid #fff;
     color: #fff;
     background-color: transparent;
     border-radius: 5px;
     margin-bottom:  20px;
-    margin-right: 490px;
-    margin-left: 290px; 
 }
 .btn{
-    padding: 13px 173px 12px 173px;
-    display: block;
-    color: rgb(255, 85, 0);
-    background-color: #fff;
+    width: 300px;
+    height: 56px;
+    display: flex;
+    color: rgb(95, 35, 234);
+    background-color: #f5f5fc;
     border-radius: 5px;
-    margin-bottom:  20px;
-    margin-right: 490px;
-    margin-left: 290px; 
 }
 .top-box{
     align-items: center;
@@ -117,20 +100,20 @@ button {
     margin-top: 31px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    max-width: 1230px;
 }
 .show{
     height: 17px;
     font-size: 16px;
-    margin-left: 306px;
-    margin-right: 670px;
 }
 #orderBtn{
     padding: 9px 13px 8px 42px;
     background-color: #8E96A7;
 }
-.bmark{
-    margin: 25px 118px 5px 25px;
-}
+
+
+
 .ifText{
     margin-left: 25px;
     width: 218px;
@@ -184,11 +167,14 @@ button {
     display: flex;
     min-width: 1140px;
 }
+.reght{
+    max-width: 912px;
+}
 .regHonBox{
     margin-top: 25px;
     display: flex;
     gap: 50px;
-    width: 912px;
+    max-width: 912px;
     margin-right: 40px;
     margin-bottom: 33px;
     justify-content: space-between;
@@ -202,7 +188,8 @@ button {
     margin-top: 40px;
     display: flex;
     gap: 50px;
-    width: 912px;
+    max-width: 912px;
+
     margin-right: 40px;
     margin-bottom: 33px;
     justify-content: space-between;
